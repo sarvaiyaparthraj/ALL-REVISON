@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+  margin: auto;
+  margin-top: 25px;
+  height: 600px;
+  width: 600px;
+  background-color: cornflowerblue;
+  padding: 90px;
+
+
+
+  border: 5px double rgba(2, 153, 83, 0.568);
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  border: 2px solid black;
+  background-color: blueviolet;
+}

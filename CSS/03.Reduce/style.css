@@ -1,0 +1,94 @@
+/* Body Style */
+body{
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+/*  UPPERCASE */
+.upper{
+    text-transform: uppercase;
+}
+
+/*  lowercase */
+.lower{
+    text-transform: lowercase;
+}
+
+/* Convert first letter of every word into Capital */
+.capital{
+    text-transform: capitalize;
+}
+
+/* Underline Text */ 
+.underline{
+    text-decoration: underline;
+}
+
+/* Left Align Text */
+.left{
+    text-align: left;
+}
+
+/* Center Align Text */
+.center{
+    text-align: center;
+}
+
+/* Right Align Text */
+.right{
+    text-align: right;
+}
+
+/* Paragraph Properties */
+.paragraph{
+
+    /* Space between lines */
+    line-height: 30px;
+
+
+    letter-spacing: 3px;
+
+
+    word-spacing: 10px;
+
+
+    text-indent: 50px;
+
+
+    text-align: justify;
+}
+
+/* Letter Spacing Example */
+.spacing{
+    letter-spacing: 8px;
+}
+
+/* Link Style */
+a{
+
+    /* Remove underline */
+    text-decoration: none;
+
+    /* Link color */
+    color: blue;
+}
+
+/* Hover Effect */
+a:hover{
+
+    /* Change color */
+    color: red;
+
+    /* Show underline */
+    text-decoration: underline;
+}
+
+/* Unordered List Style */
+ul{
+    list-style-type: square;
+}
+
+/* Ordered List Style */
+ol{
+    list-style-type: upper-roman;
+}
