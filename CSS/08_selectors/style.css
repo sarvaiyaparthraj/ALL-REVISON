@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+p::first-letter {
+  font-size: 70px;
+  color: rgb(48, 1, 63);
+}
+
+.list::first-line {
+  color: rgb(21, 255, 0);
+  font-size: 60px;
+}
+
+
+
+.list li:first-child {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.list li:last-child {
+  font-style: italic;
+}
+
+.list li:nth-child(3) {
+  color: rgb(146, 91, 19);
+}
