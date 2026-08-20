@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 600px;
+    width: 800px;
+
+    margin: auto;
+    margin-top: 30px;
+
+    border: 3px solid black;
+
+    display: grid;
+
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+
+    gap: 5px;
+}
+
+.box {
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 28px;
+    font-family: cursive;
+
+    text-align: center;
+}
+
+
+/* Main Car */
+
+#box-1 {
+    background: #e74c3c;
+
+    grid-column: 1 / 6;
+    grid-row: 2 / 4;
+}
+
+
+/* Window 1 */
+
+#box-2 {
+    background: #3498db;
+
+    grid-column: 2;
+    grid-row: 1 / 2;
+}
+
+
+/* Window 2 */
+
+#box-3 {
+    background: #5dade2;
+
+    grid-column: 3;
+    grid-row: 1 / 2;
+}
+
+
+/* Front */
+
+#box-4 {
+    background: #f1c40f;
+
+    grid-column: 4 / 6;
+    grid-row: 2;
+}
+
+
+/* Wheel 1 */
+
+#box-5 {
+    background: #2c3e50;
+
+    grid-column: 1;
+    grid-row: 4;
+}
+
+
+/* Wheel 2 */
+
+#box-6 {
+    background: #34495e;
+
+    grid-column: 5;
+    grid-row: 4;
+}
+
+
+/* Light 1 */
+
+#box-7 {
+    background: #f39c12;
+
+    grid-column: 1;
+    grid-row: 2;
+}
+
+
+/* Light 2 */
+
+#box-8 {
+    background: #f1c40f;
+
+    grid-column: 5;
+    grid-row: 3;
+}
+
+
+/* Road */
+
+#box-9 {
+    background: #7f8c8d;
+
+    grid-column: 1 / 6;
+    grid-row: 4;
+}

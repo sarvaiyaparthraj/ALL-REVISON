@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 600px;
+    width: 900px;
+
+    margin: auto;
+    margin-top: 30px;
+
+    border: 3px solid black;
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    gap: 4px;
+
+    background-color: white;
+}
+
+.box {
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+    font-family: cursive;
+
+    text-transform: capitalize;
+}
+
+
+/* =========================
+   SAFFRON ROW
+   ========================= */
+
+#box-1 {
+    background: #ff9933;
+}
+
+#box-2 {
+    background: #f6a04d;
+}
+
+#box-3 {
+    background: #ff8c1a;
+}
+
+#box-4 {
+    background: #ffb35c;
+}
+
+
+/* =========================
+   WHITE ROW
+   ========================= */
+
+#box-5 {
+    background: #ffffff;
+}
+
+#box-6 {
+    background: white;
+}
+
+#box-7 {
+    background: #fffdf5;
+}
+
+#box-8 {
+    background: #ffffff;
+}
+
+
+/* =========================
+   GREEN ROW
+   ========================= */
+
+#box-9 {
+    background: #138808;
+}
+
+#box-10 {
+    background: #209b16;
+}
+
+#box-11 {
+    background: #0b7a0b;
+}
+
+#box-12 {
+    background: #159947;
+}
+
+
+/* =========================
+   ASHOKA CHAKRA
+   ========================= */
+
+.chakra {
+    color: #000080;
+
+    font-size: 90px;
+
+    font-family: Arial, sans-serif;
+
+    font-weight: bold;
+}
